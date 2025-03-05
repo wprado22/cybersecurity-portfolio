@@ -1,8 +1,12 @@
 # cybersecurity-portfolio
 A portfolio for showcasing my progress and achievements in cybersecurity.
+
 About Me:
+
 Willian Fernandes do Prado,
+
 Atlanta, Georgia, USA
+
 Case Management and Data Entry.
 
 My background combines experience in case management and data entry with a growing expertise in IT, particularly in data security. As a paralegal, I managed sensitive client information, maintained organized case files, and ensured accurate data entry within legal databases. This experience developed my attention to detail, problem-solving skills, and ability to handle confidential information securely.
