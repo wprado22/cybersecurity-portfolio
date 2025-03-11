@@ -4,43 +4,45 @@ Today in class, Mr. Darryl Davis introduced us to the basics of computer devices
 Simple & Complex Components of a Computer
 A computer is like a human body—it has different parts that work together.
 
-🔹 Simple Components:
-Case – The shell that protects everything inside.
-Power Supply – The battery of the computer, providing electricity.
-Motherboard – The main hub that connects all the parts of a computer, like the nervous system of the body.
+Simple Components:
+  * Case – The shell that protects everything inside.
+  * Power Supply – The battery of the computer, provides electricity.
+  * Motherboard – The main hub that connects all the parts of a computer, like the nervous system of the body.
 
-🔹 Complex Components:
-CPU (Central Processing Unit) – The brain of the computer that processes all tasks.
-RAM (Random Access Memory) – The short-term memory that helps the computer work faster.
-Hard Drive (HDD/SSD) – The long-term memory where all files, apps, and programs are stored.
-Graphics Card (GPU) – The artist of the computer, handling images and videos.
+Complex Components:
+  * CPU (Central Processing Unit) – The brain of the computer that processes all tasks.
+  * RAM (Random Access Memory) – The short-term memory that helps the computer work faster.
+  * Hard Drive (HDD/SSD) – The long-term memory where all files, apps, and programs are stored.
+  * Graphics Card (GPU) – The artist of the computer, handling images and videos.
 Chipset: The Communication Hub
 North Bridge – Helps the CPU talk to fast parts like RAM and graphics card.
 South Bridge – Helps the CPU talk to slower parts like USB ports and hard drives.
 Platform Controller Hub (PCH) – A modern version that combines both bridges into one chip.
-Types of Motherboards
 
+Types of Motherboards
 Motherboards come in different sizes:
-AT (Advanced Technology) – Older, bigger motherboards.
-ATX (Advanced Technology eXtended) – A common motherboard for desktops.
-MicroATX – A smaller version of ATX, good for compact computers.
+  * AT (Advanced Technology) – Older, bigger motherboards.
+  * ATX (Advanced Technology eXtended) – A common motherboard for desktops.
+  * MicroATX – A smaller version of ATX, good for compact computers.
+
 BIOS & CMOS – The Computer’s Memory Keeper
 BIOS (Basic Input/Output System) – A tiny program that wakes up the computer when you turn it on.
 CMOS (Complementary Metal-Oxide Semiconductor) – A battery-powered chip that remembers the date, time, and basic settings of the computer.
 UEFI (Unified Extensible Firmware Interface) – A modern version of BIOS that is faster and more secure.
+
 Computer Buses – The Information Highways
 A bus in a computer is like a highway that carries data. It helps parts of the computer communicate.
-
 Types of Buses:
-Data Bus – Moves information between components.
-Address Bus – Tells the computer where to find data.
-Power Bus – Delivers electricity to parts of the computer.
+  * Data Bus – Moves information between components.
+  * Address Bus – Tells the computer where to find data.
+  * Power Bus – Delivers electricity to parts of the computer.
+
 Storage Technologies: How Computers Remember Things
 There are three types of storage:
+  * Magnetic Storage (HDD – Hard Disk Drive) – Uses spinning disks to store data. (Example: Old-school record players).
+  * Solid State Drive (SSD) – Has no moving parts and is much faster than HDDs. (Example: USB flash drives).
+  * Hybrid Storage (SSHD) – A mix of both HDD and SSD.
 
-Magnetic Storage (HDD – Hard Disk Drive) – Uses spinning disks to store data. (Example: Old-school record players).
-Solid State Drive (SSD) – Has no moving parts and is much faster than HDDs. (Example: USB flash drives).
-Hybrid Storage (SSHD) – A mix of both HDD and SSD.
 Interfaces: How Storage Devices Connect to the Computer
 An interface is like a plug that connects storage devices to the motherboard. Common types include:
 
@@ -50,36 +52,36 @@ SATA (Serial ATA) – The most common hard drive connection today.
 NVMe (Non-Volatile Memory Express) – The fastest SSD connection, used in modern computers.
 USB (Universal Serial Bus) – Used for external hard drives and flash drives.
 Recommended Learning Resource
-📺 Watch "Professor Messer" on YouTube – A great resource for learning more about computers!
+Watch "Professor Messer" on YouTube – A great resource for learning more about computers!
 
 Types of Computers & Software
 
-🔹 Hardware Types:
+Hardware Types:
 Supercomputers – Giant computers that solve complex problems, like predicting the weather.
 
-🔹 Software Types:
+Software Types:
 Operating Systems (OS) – The software that controls the computer.
-Microsoft Windows (Versions: 8.1, 10, 11, 2012, 2016, 2019, 2022, Azure).
-Apple macOS & iOS – Runs on MacBooks and iPhones.
-Linux (Debian, RedHat, Android, Chrome OS) – An open-source OS used in many devices.
+  * Microsoft Windows (Versions: 8.1, 10, 11, 2012, 2016, 2019, 2022, Azure).
+  * Apple macOS & iOS – Runs on MacBooks and iPhones.
+  * Linux (Debian, RedHat, Android, Chrome OS) – An open-source OS used in many devices.
 
 Software Applications – Programs we use daily.
-Web Browsers – Safari, Firefox, Edge, Google Chrome.
-Office Software – Microsoft Office, LibreOffice.
-AI Tools – Artificial intelligence-powered applications like Teams.
-Management & Utilities – Tools that help computers run efficiently.
+  * Web Browsers – Safari, Firefox, Edge, Google Chrome.
+  * Office Software – Microsoft Office, LibreOffice.
+  * AI Tools – Artificial intelligence-powered applications like Teams.
+  * Management & Utilities – Tools that help computers run efficiently.
 
 Types of Servers
 Servers are powerful computers that store and manage data for networks.
 3 Types of Servers
-Standalone Server – Works by itself for small tasks.
-Rack Mount Server – Fits into a rack with other servers to save space.
-Blade Server – A thin server designed to save space and energy.
+  * Standalone Server – Works by itself for small tasks.
+  * Rack Mount Server – Fits into a rack with other servers to save space.
+  * Blade Server – A thin server designed to save space and energy.
 
 Operating Systems & Interfaces
-🔹 Embedded OS – A special type of OS used in smart TVs, cars, and appliances.
-🔹 Graphical User Interface (GUI) – A visual way to interact with a computer (clicking icons).
-🔹 Command Line Interface (CLI) – A text-based way to control a computer (typing commands).
+*  Embedded OS – A special type of OS used in smart TVs, cars, and appliances.
+*  Graphical User Interface (GUI) – A visual way to interact with a computer (clicking icons).
+*  Command Line Interface (CLI) – A text-based way to control a computer (typing commands).
 
 Critical Thinking – The Power of Asking "Why?"
 Mr. Davis reminded us that curiosity is key to learning. Instead of just accepting information, we should always ask:
@@ -87,13 +89,12 @@ Mr. Davis reminded us that curiosity is key to learning. Instead of just accepti
 Why does it work this way?
 How can I improve it?
 What happens if I change something?
-Curiosity is the best tool for learning! 🚀
+Curiosity is the best tool for learning!
 
 Final Thoughts
 Today's lesson was packed with information, but breaking it down into simple ideas made it easier to understand. Computers are powerful because of their hardware, software, and how they process information. Learning about them step by step helps build a strong foundation for the future.
 
-🔹 Next Steps:
-✅ Watch Professor Messer on YouTube.
-✅ Continue exploring computer components and operating systems.
-✅ Practice explaining these concepts to someone else (like an 8th grader!) to reinforce understanding.
-
+Next Steps:
+*  Watch Professor Messer on YouTube.
+*  Continue exploring computer components and operating systems.
+*  Practice explaining these concepts to reinforce understanding.
