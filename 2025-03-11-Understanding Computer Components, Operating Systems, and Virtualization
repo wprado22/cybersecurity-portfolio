@@ -1,0 +1,97 @@
+Reflection on Today’s Class – Understanding Computer Components, Operating Systems, and Virtualization
+Today’s class with Mr. Darryl Davis was packed with important topics related to motherboards, operating systems, virtualization, and the binary system. Below is a breakdown of what we covered, explained in a way that an 8th grader could understand.
+
+Understanding the Motherboard & Its Components
+A motherboard is like the nervous system of a computer. It connects and allows communication between all parts of the computer.
+
+Key Components on the Motherboard:
+CPU (Central Processing Unit) – This is the brain of the computer. It processes all the instructions and calculations needed to run programs.
+Example: When you play a video game, the CPU decides what happens next based on your actions.
+
+RAM (Random Access Memory) – This is the short-term memory of the computer. It helps the computer run programs quickly but forgets everything when the power is off.
+Example: When you’re taking notes on a whiteboard, RAM is like the whiteboard before you erase it.
+
+PCI & PCIe (Peripheral Component Interconnect & PCI Express) – These are slots where you can add extra components like graphics cards or Wi-Fi cards to improve the computer.
+Example: If you want to play high-quality games, you can install a PCIe graphics card to make the images look better.
+
+Storage (HDD, SSD, Hybrid Storage)
+  HDD (Hard Disk Drive) – Uses spinning magnetic disks to store data. Slower but cheaper.
+  SSD (Solid State Drive) – No moving parts, much faster. Used in modern laptops and phones.
+  Hybrid Storage (SSHD) – A mix of both HDD and SSD.
+  BIOS/UEFI (Basic Input Output System / Unified Extensible Firmware Interface) – A tiny program stored on the motherboard that helps the computer start up when you turn it on.
+    Example: It’s like the ignition system in a car—without it, your car (computer) won’t start.
+  NVMe M.2 (Non-Volatile Memory Express M.2) – A super-fast type of SSD that plugs directly into the motherboard.
+    Example: If an HDD is like a bicycle and an SSD is a car, NVMe is a Formula 1 race car—extremely fast!
+
+How Do Operating Systems Work?
+An Operating System (OS) is like the boss of the computer. It manages all the hardware and allows us to use applications (like web browsers and games).
+
+What Does an Operating System Do?
+Acts as a bridge between the user and the computer hardware.
+Allocates resources like CPU power and memory to different programs.
+Manages files and security.
+Types of Operating Systems:
+Windows OS – Made by Microsoft, used in most personal computers.
+MacOS – Used in Apple computers.
+Linux – An open-source OS, used for servers and tech projects.
+Android & iOS – Operating systems for mobile phones.
+
+Goals of an OS:
+  Convenience – Makes computers easy to use.
+  Efficiency – Makes sure programs run smoothly.
+  Both – A good OS balances convenience and efficiency.
+
+Virtualization & Hypervisors
+What is Virtualization?
+  Virtualization is when a computer can run multiple operating systems at the same time using special software called a hypervisor.
+
+Can a Windows Machine Host a Virtual Machine?
+* Yes! A Windows computer can run a virtual machine using a hypervisor like VMware, VirtualBox, or Microsoft Hyper-V.
+
+Types of Hypervisors:
+Type 1 Hypervisor ("Bare Metal") – Runs directly on the computer hardware, making it faster and more efficient.
+  Examples: Xen, VMware ESXi, Microsoft Hyper-V, KVM.
+  Example: A school that wants to run multiple virtual classrooms on one powerful computer would use a Type 1 Hypervisor.
+
+Type 2 Hypervisor ("Hosted") – Runs on top of another operating system, meaning it’s a little slower but easier to use.
+  Examples: VMware Workstation, VirtualBox, Parallels.
+  Example: If you have a Windows laptop but need to run a Linux program, you can use VirtualBox (Type 2 Hypervisor) to create a virtual Linux computer inside your Windows system.
+
+Advantages of Virtualization:
+* Saves money – No need to buy multiple computers.
+* Better management – Easier to organize and control servers.
+* Isolation – If a virtual machine gets a virus, it won’t harm the main system.
+* System backup & recovery – You can create snapshots of a virtual machine and restore it if something goes wrong.
+
+Disadvantages of Virtualization:
+* Security risks – If a hacker breaks into the host system, they might access all virtual machines.
+* Compatibility issues – Some programs don’t work well in a virtual machine.
+* License costs – Some hypervisors and operating systems require expensive licenses.
+
+The Origin of UNIX & Linux
+Unix was one of the first operating systems. It led to the creation of many modern OS like Linux, MacOS, and Android.
+Multics & Unics – Early versions of Unix.
+Linux – Created by Linus Torvalds, Linux is an open-source OS that is used everywhere, from phones to supercomputers.
+
+Understanding Binary, ASCII & The Language of Computers
+  Binary System (0s and 1s)
+  Computers don’t understand words like humans. Instead, they use binary code, which is just 0s and 1s.
+   Example: The letter A in binary is 01000001.
+
+ASCII (American Standard Code for Information Interchange)
+  ASCII is a code that converts letters into numbers so computers can understand them.
+    Example: The letter A = 65 in ASCII.
+
+Why is Binary Important? It helps computers process and store data.
+Everything you see on a screen—text, images, videos—is converted into binary for the computer to understand.
+Final Thoughts & Next Steps
+
+Today’s class covered a lot of technical concepts, but breaking them down into simple explanations makes them easier to understand.
+
+Next Steps:
+*  Watch more videos on binary and operating systems to deepen understanding.
+* Experiment with Virtual Machines (Try VirtualBox or Hyper-V).
+* Review the difference between Type 1 & Type 2 Hypervisors.
+* Practice explaining these concepts to someone else.
+
+Understanding how computers work is a key step toward a career in IT or cybersecurity. Today’s class gave me a solid foundation to build on.
