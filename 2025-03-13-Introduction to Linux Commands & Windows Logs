@@ -1,0 +1,82 @@
+Reflection on Today’s Class – Introduction to Linux Commands & Windows Logs
+Today’s class with Mr. Darryl Davis was a deep dive into the basics of Linux commands, the Linux shell, and Windows log files. We learned how to navigate and interact with a Linux system using the command-line interface (CLI). Below is a breakdown of today’s lesson, explained in a way that an 8th grader can understand.
+
+What is Linux?
+🔹 Linux is an operating system—just like Windows or macOS—but it is free and open-source, meaning anyone can modify and share it. It is widely used for servers, cybersecurity, and programming.
+
+🔹 The Kernel is like the brain of Linux—it controls the computer’s hardware and software.
+
+Linux Shell & Terminal
+📌 Terminal vs. Shell
+
+The terminal is like a TV screen—it displays what we type and shows results.
+The shell is like a translator—it takes the commands we type and tells the computer what to do.
+📌 Types of Linux Shells:
+
+Bourne Shell (sh) – One of the oldest shell types.
+Bourne Again Shell (bash) – The most commonly used shell in Linux today.
+C Shell (csh) – Designed for programmers.
+✅ To check which shell you are using, type:
+
+bash
+Copy
+Edit
+echo $SHELL
+Example output: /bin/bash
+
+Basic Linux Commands
+1️⃣ Navigation & Viewing Files
+🔹 ls – Lists the files in a directory (like opening a folder).
+
+ls -al – Shows all files, including hidden ones, with detailed info.
+ls /var/log – Lists files inside the /var/log directory.
+🔹 pwd – Stands for "print working directory," showing where you are in the system.
+
+🔹 cd Desktop – Moves into the Desktop folder.
+
+cd ~ – Takes you back to the home directory.
+🔹 history – Shows a list of all the commands you've used before.
+
+2️⃣ Creating & Viewing Files
+🔹 touch file.txt – Creates a new, empty file named file.txt.
+🔹 cat file.txt – Displays the contents of a file.
+🔹 echo "Hello World!" > file.txt – Writes "Hello World!" into file.txt.
+
+3️⃣ User & System Information
+🔹 whoami – Tells you who you are (which user you’re logged in as).
+🔹 who – Shows all users currently using the system.
+🔹 w – Shows detailed information about all logged-in users.
+🔹 uname – Displays information about the operating system.
+
+uname -o – Shows the name of the OS.
+uname -p – Shows the processor type.
+uname -a – Shows all system information.
+✅ To get help on any command, use:
+
+man uname – Opens the manual for the uname command.
+man whatis uname – Explains what the uname command does.
+Windows Log Files
+We also explored how Windows stores log files, which record events and errors on a computer.
+📌 To find Windows log files:
+
+Open This PC
+Go to Local Disk (C:)
+Open the Windows folder
+Find the Logs folder
+📌 Windows logs are useful for troubleshooting problems and tracking system activity.
+
+Recommended Learning Resources
+📌 Instructor Recommended: GeeksforGeeks.com – A great website to learn more about Linux, programming, and cybersecurity.
+
+Final Thoughts & Next Steps
+Today’s class helped me understand how Linux works and how to navigate it using commands. I now know how to:
+✅ Use basic Linux commands to move around files and directories.
+✅ Find Windows log files for system troubleshooting.
+✅ Use man commands to read Linux manuals and learn more.
+
+Next Steps:
+📌 Practice Linux commands daily to get comfortable with the CLI.
+📌 Explore Windows log files on my computer to understand system activity.
+📌 Continue learning from GeeksforGeeks to improve my Linux skills.
+
+Today’s lesson gave me a strong foundation in Linux, and I’m excited to keep learning!
