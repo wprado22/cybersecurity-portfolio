@@ -1,0 +1,83 @@
+Today's class delved into essential aspects of Linux system administration, focusing on Identity and Access Management (IAM), user and group management, and file permissions. Here's a reflection on the topics covered, presented in a way that's accessible to an 8th grader.
+
+Identity and Access Management (IAM):
+
+IAM is like the security system of a computer, ensuring that only authorized individuals can access certain information or perform specific actions. It comprises four main components:
+
+Identity: This is who you are in the system, similar to your student ID at school. For example, a username like "jjackson" identifies a specific user.
+
+Authentication: This process verifies that you are who you claim to be, much like entering a password to unlock your phone.
+
+Authorization: Once authenticated, authorization determines what you're allowed to do, akin to having a library card that lets you borrow books but not access restricted areas.
+
+Accounting: This involves keeping track of what users do, similar to a logbook that records who borrowed which book and when.
+
+User and Group Management:
+
+In Linux, managing users and groups is crucial for organizing and securing the system.
+
+User: An individual account, like "jjackson," representing a person using the computer.
+
+Group: A collection of user accounts. For instance, a "students" group might include all student users.
+
+Commands for Managing Users:
+
+sudo useradd jjackson: Creates a new user named "jjackson."
+
+sudo usermod -c "Michael Jackson" jjackson: Adds a comment or description to the user account.
+
+sudo userdel jjackson: Deletes the user "jjackson" from the system.
+
+File and Directory Ownership:
+
+Every file and directory in Linux has an owner, which can be:
+
+User (u): The person who created the file.
+
+Group (g): A set of users who share access.
+
+Others (o): Everyone else with access to the system.
+
+Permissions:
+
+Permissions define what actions can be performed on a file or directory:
+
+Read (r): Allows viewing the content.
+
+Write (w): Allows modifying the content.
+
+**Execute (x): Allows running the file as a program or accessing a directory.
+
+These permissions are represented in two ways:
+
+Symbolic (letters): 'r' for read, 'w' for write, 'x' for execute.
+
+Numeric (octal): 4 for read, 2 for write, 1 for execute. For example, a permission of 7 (4+2+1) means read, write, and execute are all allowed.
+
+Changing Permissions with chmod:
+
+The chmod command modifies permissions. For example:
+
+chmod u+x myfile: Gives the user (owner) execute permission on "myfile."
+
+chmod 755 myfile: Sets the permissions so that the user can read, write, and execute (7), while the group and others can only read and execute (5).
+
+Principle of Least Privilege:
+
+This principle suggests that users should have only the permissions necessary to perform their tasks, minimizing potential risks.
+
+Special Permissions:
+
+Linux also has special permissions:
+
+Set User ID (SUID): Allows users to run an executable with the file owner's privileges.
+
+Set Group ID (SGID): Similar to SUID but applies to group ownership.
+
+Sticky Bit: Prevents users from deleting files in a shared directory unless they own the files.
+
+Recommended Reading:
+
+A guest from the Technology Association of Georgia recommended the book "150 Cybersecurity Careers You Might Not Know About" by Marcelle Lee and Dan Shoemaker. This book explores various career paths in cybersecurity, providing insights into roles ranging from security analysts to ethical hackers, and emphasizes the diverse opportunities available in the field.
+
+Understanding these concepts is fundamental for anyone interested in Linux system administration and cybersecurity, as they form the backbone of system security and user management.
