@@ -1,0 +1,74 @@
+In today's "Introduction to Linux" class, we explored package management, a fundamental aspect of maintaining and operating a Linux system. 
+
+Understanding Package Management
+
+A package manager is a tool in Linux that helps users install, update, and remove software on their computers. Think of it as an app store that keeps track of all the programs on your system, ensuring they work correctly and have all the necessary components. ​
+Scaler
+
+Source Code and Compilation
+
+Source code is the human-readable set of instructions that developers write using programming languages. Before a computer can run this code, it needs to be transformed into a language the machine understands, known as binary code. This transformation process is called compilation.​
+
+Linux Distributions and Package Managers
+
+Different versions of Linux, known as distributions (or distros), come with their own package managers:​
+
+Red Hat: Uses the RPM Package Manager (RPM) to handle software packages. ​
+The world's open-source leader
+
+Debian: Utilizes the Advanced Package Tool (APT) for package management.​
+Oxylabs
++3
+Akamai
++3
+Scaler
++3
+
+Common Package Managers and Commands
+
+Here are some widely used package managers and examples of their commands:​
+
+RPM (Red Hat Package Manager): Used in Red Hat-based systems.​
+
+To install a package: sudo rpm -i package_name.rpm​
+
+To remove a package: sudo rpm -e package_name​
+
+YUM (Yellowdog Updater, Modified): An older package manager for Red Hat-based systems.​
+
+To install a package: sudo yum install package_name​
+
+To update all packages: sudo yum update​
+
+DNF (Dandified YUM): The modern replacement for YUM in newer Red Hat-based systems.​
+The world's open-source leader
+
+To install a package: sudo DNF install package_name​
+
+To update all packages: sudo DNF update​
+
+APT (Advanced Package Tool): Used in Debian-based systems like Ubuntu.​
+
+To update the list of available packages: sudo apt update​
+
+To install a package: sudo apt install package_name​
+
+Software Dependencies
+
+Sometimes, a software program requires other programs or libraries to function correctly. These are called dependencies. Package managers handle these dependencies automatically, ensuring all necessary components are installed.​
+
+Tools for Downloading Files: Wget vs. Curl
+
+We also discussed two command-line tools used for downloading files from the Internet:​
+Warp
+
+Wget: Ideal for downloading files and even entire websites. It supports resuming interrupted downloads and is excellent for downloading large files. ​
+GeeksforGeeks
+
+Curl: A versatile tool that not only downloads files but also interacts with various internet protocols. It's commonly used for testing APIs and supports a wide range of protocols beyond HTTP and FTP. ​
+
+Class Activities and Assignments
+
+Throughout the class, we practiced using these package managers and tools, reinforcing our understanding of how to manage software on Linux systems effectively. We also watched recommended YouTube videos to deepen our comprehension of source code and software installation processes in Linux.​
+
+In summary, today's class provided valuable insights into how Linux systems manage software, the role of package managers, and the tools available for downloading and interacting with online resources.
