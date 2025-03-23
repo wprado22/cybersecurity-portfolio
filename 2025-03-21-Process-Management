@@ -1,0 +1,62 @@
+​In today's Intro to Linux class, we delved into process management, a fundamental aspect of how Linux operates. Let's break down the key concepts and commands we explored, making them easy to understand.​
+
+What is a Process?
+
+A process is simply a program that's currently running on your computer. For example, when you open a web browser, it starts a process to display websites. In Linux, processes are essential for the system to function, as they handle tasks like running applications and managing system operations. ​
+
+Processes vs. Threads
+
+Think of a process as a big task your computer is handling. Within that task, there can be smaller tasks called threads. For instance, in a video game (the process), one thread might handle the graphics, while another manages the sound. Threads share the same resources within a process, making them efficient but requiring careful management to avoid issues. ​
+GeeksforGeeks
++1
+Backblaze
++1
+Oracle Docs
+
+Types of Processes
+
+Foreground Processes: These are processes you start and interact with directly. For example, when you open a text editor to write a document, it's a foreground process.​
+
+Background Processes (Daemons): These run behind the scenes without direct user interaction. An example is a process that checks for software updates while you work on other tasks. ​
+Backblaze
+
+Managing Processes in Linux
+
+Linux provides several commands to monitor and control processes:
+
+ps: Displays a list of currently running processes. For example, typing ps -e in the terminal shows all active processes. ​
+DigitalOcean
+
+top: Offers a real-time view of running processes, including details like CPU and memory usage. It's like a live dashboard of system activity. ​
+
+htop: An enhanced version of top with a more user-friendly interface, allowing easier navigation and process management.​
+
+Process States
+
+Processes can be in various states:
+
+Running (R): The process is actively executing.​
+DEV Community
+
+Sleeping (S): The process is waiting for an event or resource.​
+
+Stopped (T): The process has been halted, often by the user.​
+
+Zombie (Z): The process has finished execution but still has an entry in the process table. ​
+
+Managing Process Priority
+
+Each process has a priority determining how much CPU time it receives. In Linux, lower priority numbers mean higher importance. Adjusting process priority ensures critical tasks run smoothly.​
+Backblaze
+
+Practical Commands
+
+gedit: A simple text editor. You can start it by typing gedit & to run it in the background, allowing you to continue using the terminal.​
+
+fg: Brings a background process to the foreground. For example, fg 1 would bring the first background process to the front.​
+
+chmod: Changes the permissions of a file or script, such as making it executable. For instance, chmod +x script.sh allows you to run the script.​
+
+Conclusion
+
+Understanding process management is crucial for effectively using and administering a Linux system. It ensures that applications run smoothly and system resources are utilized efficiently. By mastering these concepts and commands, you're building a solid foundation in Linux operations.
