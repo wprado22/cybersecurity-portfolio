@@ -1,0 +1,81 @@
+​In today's Intro to Linux class, we delved into network fundamentals, building upon our previous lessons. Here's a reflection on the key topics covered, explained in a way that's easy to understand:​
+
+Analog vs. Digital Signals
+
+We explored the differences between analog and digital signals:​
+
+Analog Signals: These are continuous waves that vary smoothly over time, like the varying tones in a song played on a vinyl record.​
+
+Digital Signals: These consist of discrete values, often represented by 1s and 0s, similar to the steps on a staircase. Digital signals are commonly used in modern electronics due to their resilience to noise and ease of processing.​
+
+Understanding these differences is crucial because computers rely on digital signals to process and transmit data efficiently.​
+
+Binary and Hexadecimal Numbering Systems
+
+We learned about different numbering systems:​
+
+Binary (Base-2): Uses only 0 and 1. For example, the binary number 1010 equals 10 in decimal.​
+
+Decimal (Base-10): The standard system we use daily, ranging from 0 to 9.​
+
+Hexadecimal (Base-16): Uses numbers 0-9 and letters A-F. For instance, the hexadecimal number A equals 10 in decimal.​
+
+These systems are fundamental in computing for tasks like memory addressing and color representation in digital displays.​
+
+ASCII and Unicode
+
+We discussed character encoding systems:​
+
+ASCII (American Standard Code for Information Interchange): Represents 128 characters, including letters, numbers, and symbols, using 7-bit binary numbers.​
+
+Unicode: Extends ASCII to include characters from various languages and symbols worldwide, using up to 32 bits.​
+
+These standards ensure consistent text representation across different devices and platforms.​
+
+OSI Model
+
+The Open Systems Interconnection (OSI) model outlines seven layers that describe how data travels through a network:​
+Imperva
+
+Physical Layer: Handles the physical connection between devices, including cables and switches.​
+
+Data Link Layer: Manages data transfer between adjacent network nodes and detects errors.​
+
+Network Layer: Determines data paths and handles logical addressing (e.g., IP addresses).​
+
+Transport Layer: Ensures reliable data transfer and error recovery.​
+
+Session Layer: Manages sessions or connections between applications.​
+
+Presentation Layer: Translates data formats and handles encryption and compression.​
+
+Application Layer: Provides network services directly to user applications.​
+
+
+Understanding the OSI model helps us grasp how different networking protocols and devices interact to facilitate communication.​
+
+Network Ports and Protocols
+
+We examined various network ports and their associated protocols, which define how data is transmitted over networks:​
+
+FTP (Port 21): Used for transferring files between computers.​
+
+HTTP (Port 80): Foundation of data communication on the web.​
+
+HTTPS (Port 443): Secure version of HTTP, encrypting data for safe transmission.​
+
+SSH (Port 22): Allows secure remote login to another computer.​
+
+Recognizing these ports and protocols is essential for configuring and troubleshooting network services.​
+
+IP Addressing
+
+We explored IP addresses, which uniquely identify devices on a network:​
+
+IPv4: Consists of four numbers separated by dots (e.g., 192.168.1.1), allowing over 4 billion unique addresses.​
+
+IPv6: Introduced to accommodate the growing number of devices, using a longer address format (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).​
+
+Understanding IP addressing is crucial for network configuration and management.​
+
+Today's class provided a foundational understanding of how networks operate, which is vital for anyone pursuing a career in IT or cybersecurity.
