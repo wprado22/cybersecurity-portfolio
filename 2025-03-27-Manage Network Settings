@@ -1,0 +1,116 @@
+​In today's Network Fundamentals class, we delved deeper into managing network settings and explored several key concepts and tools. Here's a summary of the topics we covered:​
+
+DHCP Server: This is like a librarian who assigns unique library card numbers (IP addresses) to each student (device) so they can borrow books (access the network).​
+
+IP Addresses: These are unique identifiers for devices on a network, similar to home addresses.​
+YouTube
+
+IPv4 and IPv6: These are two versions of IP addresses. IPv4 uses a 32-bit address system (like a 4-digit house number), while IPv6 uses a 128-bit system (like a much longer house number) to accommodate more devices.​
+
+Subnet: This divides a large network into smaller, manageable sections, like dividing a city into neighborhoods.​
+YouTube
+
+Default Gateway: This acts as the main exit and entry point of a network, like the main gate of a school.​
+
+DNS Server (Domain Name System): This translates website names (like www.google.com) into IP addresses, similar to how a phonebook matches names to phone numbers.​
+
+New Topics Covered:
+
+DNS Client: This is the part of your computer that queries the DNS server to find the IP address associated with a website name.​
+
+Difference Between DHCP and DNS:
+
+DHCP (Dynamic Host Configuration Protocol): Automatically assigns IP addresses to devices on a network.​
+Tenable Documentation
+
+DNS (Domain Name System): Translates domain names into IP addresses.​
+
+Ping and Traceroute Commands:
+
+Ping: A tool used to test if a device is reachable on the network. For example, typing ping www.google.com checks if Google's server is accessible.​
+
+Traceroute: Shows the path data takes to reach its destination, helping identify where connection issues might occur.​
+
+ARP (Address Resolution Protocol): Translates IP addresses to MAC addresses (the unique hardware address of a device), like matching a car's license plate to its VIN number.​
+
+MAC Address: A unique identifier assigned to network interfaces for communications on the physical network segment. It's like a fingerprint for your device.​
+
+Troubleshooting Models:
+
+Gather Information: Collect details about the issue.​
+
+Identify What Has Changed: Determine if anything was altered recently.​
+
+Create a Hypothesis: Guess what might be causing the problem.​
+Youtube 
+
+Determine the Appropriate Fix: Decide on a solution.​
+
+Implement the Fix: Apply the solution.​
+
+Ensure User Satisfaction: Confirm that the issue is resolved.​
+
+Document the Solution: Record what was done for future reference.​
+
+System and Service Administration:
+
+Process: A running instance of a program.​
+
+Daemon: A background process that runs without user interaction.​
+
+Service: A program that runs in the background and provides functionalities to other programs or users.​
+
+Linux Boot Process:
+
+BIOS/UEFI: Initial firmware that starts the computer.​
+Tenable Documentation
+
+Boot Loader: Loads the operating system into memory.​
+
+Kernel: The core of the operating system.​
+
+Systemd or SysVinit: Manages system processes after the kernel is loaded.​
+
+Systemctl Commands:
+
+Starts a service.​
+
+Stops a service.​
+
+Checks the status of a service.​
+
+Scheduling Tasks Using Cron Service:
+
+Cron: A time-based job scheduler in Unix-like operating systems.​
+
+Crontab: A file containing commands to be run at specified times.​
+Tenable Documentation
+
+Installing and Managing Services in Linux:
+
+Installing Apache Web Server:
+
+sudo apt install apache2: Installs the Apache web server.
+
+ping -c 10 [IP address]: Sends 10 ping requests to the specified IP address.
+
+Installing Nessus Essentials:
+
+Download Nessus: Visit the Tenable website and download the Nessus Essentials package suitable for your operating system.​
+YouTube
+
+Install Nessus: Use the appropriate command to install the downloaded package. For example, on Ubuntu:​
+
+sudo dpkg -i Nessus-<version number>-debian6_amd64.deb
+
+www.tenable.com/download via the ubutun webbrowser.
+
+cd download/ 
+
+Start Nessus Service: After installation, start the Nessus service:​
+
+sudo systemctl start nessusd
+
+Access Nessus Web Interface: Open a web browser and navigate to https://localhost:8834/ to complete the setup.​
+
+Register Nessus: Enter the activation code received via email to activate Nessus Essentials.​
