@@ -1,0 +1,104 @@
+​In today's Network Fundamentals class, we delved into several key topics, including the hexadecimal number system, firewalls, and remote administration tools like Secure Shell (SSH). 
+
+Hexadecimal Number System
+
+The hexadecimal number system, often called "hex," is a base-16 system used in computing and digital electronics. Unlike our familiar decimal system (base-10), which uses digits 0 through 9, hexadecimal uses 16 symbols:​
+
+Digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9​
+
+Letters: A, B, C, D, E, F (representing values 10 to 15)​
+
+Each hexadecimal digit corresponds to a unique 4-bit binary sequence, making it efficient for representing binary-coded values. Here's a table illustrating the relationship between hexadecimal digits and their binary equivalents:​
+
+Hexadecimal	Binary
+0	0000
+1	0001
+2	0010
+3	0011
+4	0100
+5	0101
+6	0110
+7	0111
+8	1000
+9	1001
+A	1010
+B	1011
+C	1100
+D	1101
+E	1110
+F	1111
+Example: The hexadecimal number 2F translates to the binary sequence 0010 1111.​
+
+Firewalls
+
+A firewall acts as a security guard for your computer or network, monitoring and controlling incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet. ​
+
+Types of Firewalls:
+
+Packet Filtering Firewall: Examines packets (small chunks of data) and filters them based on IP addresses, protocols, and port numbers. It's like a security guard checking IDs before allowing entry.​
+
+Stateful Inspection Firewall: Monitors active connections and makes decisions based on the state of the traffic, ensuring that only legitimate sessions are allowed. Think of it as a guard who remembers who has entered and ensures they leave appropriately.​
+
+Application Layer Firewall: Inspects data at the application level, understanding specific protocols like HTTP or FTP, and can block specific content or applications. It's akin to a guard who not only checks IDs but also understands the purpose of visits.​
+
+Firewall Deployment Methods:
+
+Hardware-Based Firewalls: Physical devices placed between your network and the gateway to monitor and control traffic.​
+
+Software-Based Firewalls: Programs installed on individual computers to protect them from threats.​
+
+Cloud-Based Firewalls: Security solutions provided over the internet, offering scalable protection without physical hardware.​
+
+Access Control Lists (ACLs):
+
+ACLs are sets of rules used by firewalls to determine whether to allow or block traffic based on factors like IP addresses, protocols, and port numbers. They function like a guest list at an event, specifying who is permitted entry and who is not.​
+
+Secure Shell (SSH)
+
+SSH is a protocol that provides a secure method for remotely accessing and managing computers over a network. It encrypts data, ensuring that sensitive information like passwords remains protected during transmission.​
+
+Key Features of SSH:
+
+Authentication: Verifies the identity of users and devices.​
+
+Encryption: Secures data being transmitted over the network.​
+
+Port Forwarding: Allows secure tunneling of other protocols through SSH.​
+
+Example: Using SSH, a system administrator can securely log into a remote server to perform maintenance tasks without exposing sensitive information to potential eavesdroppers.​
+
+Linux Firewall Management
+
+Linux systems utilize various tools for firewall management, with iptables and ufw (Uncomplicated Firewall) being among the most common.​
+
+iptables: A command-line utility that allows detailed control over network traffic by defining rules for packet filtering.​
+
+ufw: A user-friendly interface for managing firewall rules, simplifying the process of configuring iptables.​
+
+Commands:
+
+sudo ufw status – Checks the current status of the firewall.​
+
+sudo ufw enable – Activates the firewall with predefined rules.​
+
+sudo ufw allow 22 – Allows incoming connections on port 22 (commonly used for SSH).​
+
+Netcat (NC)
+
+Netcat is a versatile networking tool used for reading from and writing to network connections using TCP or UDP protocols. It's often referred to as the "Swiss Army knife" of networking due to its wide range of capabilities, including port scanning, file transfer, and network debugging.​
+
+Commands:
+
+nc -l -p 1234 – Listens for incoming connections on port 1234.​
+
+nc 192.168.1.10 1234 – Connects to a server at IP address 192.168.1.10 on port 1234.​
+
+Nmap
+
+Nmap (Network Mapper) is an open-source tool for network exploration and security auditing. It can rapidly scan large networks to detect live hosts, services, and open ports, providing insights into potential vulnerabilities.​
+
+Commands:
+
+nmap localhost – Scans the local machine to identify open ports and services.​
+
+nmap 192.168.1.0/24 – Scans all devices in the 192.168.1
