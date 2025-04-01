@@ -1,0 +1,50 @@
+Reflecting on today's final exam in our Introduction to Linux course, I encountered several questions that challenged my understanding. 
+One question addressed the difference between IPv4 and IPv6. IPv4 uses a 32-bit addressing scheme, allowing for approximately 4.3 billion unique addresses. 
+In contrast, IPv6 employs a 128-bit scheme, vastly expanding the address space to accommodate the growing number of internet-connected devices. 
+Initially, I selected the correct answer but later changed it, highlighting the importance of trusting my initial knowledge.
+
+Another question focused on the use of the '>>' operator in Linux. This operator appends data to an existing file without overwriting its content. For example, using 'echo "Hello" >> file.txt' adds "Hello" to the end of 'file.txt'. 
+I mistakenly changed my answer to the pipe symbol '|', which is used to pass the output of one command as input to another, such as 'ls | grep "txt"' to filter and display only text files. 
+This confusion underscores the need to clearly understand and differentiate between command-line operators.
+
+The exam also covered the role of DHCP (Dynamic Host Configuration Protocol). 
+DHCP automatically assigns IP addresses to devices on a network, facilitating seamless communication without manual configuration. 
+While I answered that DHCP "distributes" IP addresses, the term "assigns" more accurately describes its function. 
+This distinction emphasizes the importance of precise terminology in networking concepts.
+
+​After completing our final exam, Derek guided us through several practical exercises to enhance our understanding of Linux and version control systems. 
+Here's a reflection on the key topics we covered:​
+
+1. Opening Virtual Machines with VMware Workstation: We learned how to open existing virtual machines (VMs) using VMware Workstation. 
+This process allows us to run multiple operating systems on a single physical machine, which is invaluable for testing and development purposes. 
+To open an existing VM, you typically launch VMware Workstation, navigate to 'File' > 'Open', and select the desired VM file. ​
+
+2. Accessing GitHub Accounts via Firefox: Derek demonstrated how to use the Firefox browser to log into our GitHub accounts. 
+This step is essential for managing repositories, collaborating on projects, and accessing version control features provided by GitHub.​
+
+3. Version Control Systems (VCS) - Git and GitHub: We delved into Version Control Systems, focusing on Git and its online counterpart, GitHub. 
+Git is a tool that tracks changes in our code, allowing multiple developers to collaborate without overwriting each other's work. 
+GitHub hosts Git repositories online, facilitating remote collaboration and code sharing.​
+
+4. Installing and Configuring Git via Linux Command Line: Derek guided us through installing Git using the command:​
+sudo apt-get install git
+
+After installation, we configured our user information:​
+
+git config --global user.email "your_email@example.com"
+git config --global user.name "Your Name"
+These configurations are crucial for Git to associate our commits with our identity.​
+
+5. Creating and Managing Repositories: We practiced creating new repositories on GitHub and cloning them to our local machines. 
+The steps included initializing a repository, adding files, committing changes, and pushing them to GitHub. 
+These actions form the foundation of collaborative software development.​
+
+6. Generating Personal Access Tokens (PATs): To enhance security, Derek introduced us to creating Personal Access Tokens on GitHub. 
+PATs serve as alternatives to passwords for authenticating to GitHub when using the command line or API. 
+They provide fine-grained access control and can be revoked if compromised. ​
+
+7. Opening New Terminal Tabs in Linux: We learned that pressing 'CTRL + SHIFT + T' opens a new tab in the Linux terminal. 
+This shortcut improves multitasking efficiency, allowing us to run multiple commands simultaneously.​
+
+These practical exercises reinforced our theoretical knowledge and equipped us with essential skills for real-world applications. 
+Understanding how to navigate virtual environments, manage code repositories, and utilize command-line tools are foundational competencies in the field of network and system administration.
