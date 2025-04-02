@@ -1,0 +1,85 @@
+Today's class in Network Fundamentals was both enlightening and engaging. Here's a reflection on the key topics we explored:
+
+Critical Thinking and Practice: Our instructor emphasized the importance of continuous practice to master networking concepts. 
+To aid in our preparation for the Network+ certification, we were advised to utilize Jason Dion's "Network+ (N10-009) 6 Practice Exams Set 1" on Udemy. 
+These practice exams are designed to simulate the actual certification test, helping us identify areas for improvement and build confidence.​
+
+Network Architectures:
+
+Client-Server Networks: In this centralized model, one or more servers manage resources and services, while client devices request them. 
+This setup offers better security and centralized management but can be costly and complex to maintain.​
+
+Peer-to-Peer Networks: Here, each device functions both as a client and a server, sharing resources directly without a central authority. 
+While easier and cheaper to set up, they lack centralized security and management.​
+
+Network Topologies:
+
+Point-to-Point (P2P): A direct connection between two devices.​
+
+Point-to-Multipoint (P2MP): One device connects to multiple devices.​
+
+Bus Topology: All devices share a single communication line.​
+
+Ring Topology: Devices are connected in a circular sequence.​
+
+Star Topology: All devices connect to a central hub.​
+
+Hybrid Topologies: Combinations like star-ring or star-bus, integrating features of different topologies.​
+
+Mesh Topology: Devices are interconnected, with partial or full mesh configurations enhancing redundancy and reliability.​
+
+OSI Model (Open Systems Interconnection): We delved into the OSI model, which standardizes networking functions into seven layers:​
+
+Physical Layer: Handles physical connections; examples include cables like twisted pair, coaxial, and fiber optics.​
+
+Data Link Layer: Manages node-to-node data transfer and error detection; devices like switches operate here.​
+
+Network Layer: Determines data paths and logical addressing; routers function at this layer.​
+
+Transport Layer: Ensures complete data transfer with protocols like TCP and UDP.​
+
+Session Layer: Manages sessions between applications.​
+
+Presentation Layer: Translates data formats between applications and the network.​
+
+Application Layer: Facilitates network services directly to end-users; examples include HTTP and FTP.​
+
+Small Office/Home Office (SOHO) Networks: We explored SOHO networks, which cater to small-scale environments. Key components include:​
+
+Router: Connects the local network to the internet and directs data traffic.​
+
+Switch: Allows devices within the network to communicate.​
+
+Firewall: Protects the network by controlling incoming and outgoing traffic.​
+
+DHCP (Dynamic Host Configuration Protocol): Automatically assigns IP addresses to devices.​
+
+DNS (Domain Name System): Translates domain names into IP addresses.​
+
+Configuring a SOHO router involves setting up wired and wireless connections, securing the network with encryption, and configuring firewall settings. 
+For a comprehensive guide, refer to Professor Messer's tutorial on configuring a SOHO wireless router. ​
+
+
+Troubleshooting Methodology: We learned a systematic approach to network troubleshooting:​
+
+Identify the Problem: Gather information and understand the issue.​
+
+Establish a Theory: Hypothesize potential causes.​
+
+Test the Theory: Determine the exact cause through testing.​
+
+Establish a Plan: Outline steps to resolve the issue.​
+
+Implement the Solution: Execute the plan carefully.​
+
+Verify Functionality: Ensure the solution worked and didn't introduce new issues.​
+
+Document Findings: Record the problem, solution, and lessons learned for future reference.​
+
+
+Cybersecurity Panel Luncheon: Attending the Cybersecurity Panel Luncheon at Clark Atlanta University was inspiring. Hearing from leaders like Brian Benn, Wilson Joseph, Jan Neto, and Jonathan Exume provided valuable insights into the cybersecurity landscape and career pathways.​
+
+Preparation for 404 AI Event: We began training for the upcoming 404 AI event at City of Refuge. I'll be participating in the "Unlocking GPT" session, exploring AI tools such as ChatGPT, Interviewby.ai, Replit, Gamma.app, and Midjourney. 
+This opportunity promises to enhance our understanding of AI applications in cybersecurity.​
+
+Overall, today's class reinforced the importance of continuous learning and practical application in mastering network fundamentals.
