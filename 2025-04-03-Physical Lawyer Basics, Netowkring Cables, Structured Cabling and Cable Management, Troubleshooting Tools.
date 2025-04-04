@@ -1,0 +1,75 @@
+Today's lesson on the Network Fundamentals Physical Layer was like getting a backstage tour of how data travels through the cables that connect all our devices. 
+We did a lab exercise on Derek's Fireproof website (https://glistening-douhua-a287ac.netlify.app/) where we built a network lab environment using tools from Network+ training. 
+In our lab, we connected devices using a Cisco Layer 2 Switch, Windows computers, and a Cisco Access Point. It was like setting up a mini-city where each device (like a house) is connected by roads (cables) that help data travel smoothly.
+
+Key Concepts We Learned
+1. Physical Layer Basics:
+
+Bits: The smallest unit of data in a network, represented as 1s and 0s. Think of it like Morse code, where every message is made up of dots and dashes.
+
+Wired vs. Wireless:
+
+Wired connections use cables like twisted pair (think of a braided rope), coaxial, or fiber optic cables.
+
+Wireless connections use antennas to send signals through the air.
+
+2. Networking Cables:
+
+Twisted Pair Cables:
+
+UTP (Unshielded Twisted Pair): Like a simple, everyday garden hose, UTP cables are common and affordable.
+
+STP (Shielded Twisted Pair): These have extra protection (a shield) to block interference, much like a garden hose with a tougher exterior.
+
+Solid-Core vs. Stranded:
+
+Solid-Core Cable: A single, solid wire—strong and great for long distances.
+
+Stranded Cable: Made of many thin wires twisted together, which makes it more flexible.
+
+Categories:
+
+CAT3: Older cables supporting lower speeds, like an old dial-up phone line.
+
+CAT5e: Improved version, supporting faster speeds (up to 1 Gbps).
+
+CAT6, CAT6a, CAT7, and CAT8: Newer, faster cables, like high-speed highways for data.
+
+Connectors:
+
+RJ-45: Used for Ethernet cables; has 8 wires, like an 8-lane road.
+
+RJ-11: Smaller connector, mostly for phone lines, with 4 wires.
+
+3. Other Cable Types:
+
+Coaxial Cable: A thick, shielded cable used for cable TV and older networks.
+
+Fiber Optic Cable: Uses light to send data and is very fast; think of it as a superhighway made of glass or plastic.
+
+Single Mode Fiber (SMF): Has a very small core for long distances (like a laser beam).
+
+Multimode Fiber (MMF): Has a larger core for shorter distances (like a flashlight beam).
+
+4. Structured Cabling and Cable Management:
+
+Patch Panel: A board where cables are organized and connected, similar to a bulletin board that helps direct traffic.
+
+IDF (Intermediate Distribution Frame) and MDF (Main Distribution Frame): These are like the central hubs in a network city that organize and distribute connections.
+
+Standards (TIA/EIA, 568A/568B): Rules for wiring cables so everything works correctly—like making sure all roads in a city follow the same layout.
+
+5. Troubleshooting Tools:
+
+Tools like cable testers, tone generators, and multimeters help us find issues like signal loss (attenuation), interference (EMI, crosstalk), or miswired cables (open or short circuits).
+
+Example: A tone generator helps locate which cable goes where, like a dog that can sniff out a missing piece of a puzzle.
+
+Reflection
+Today's lesson was an adventure into the physical world of networking. We learned how different cables and connectors work together to form the "backbone" of the internet, much like roads connect houses in a neighborhood. 
+By building our own network lab, we not only saw how devices like Cisco switches and access points are connected but also understood the importance of choosing the right cables for the job—whether it's a flexible stranded cable for movement or a sturdy solid-core cable for long distances.
+
+This practical experience, combined with learning about standards, structured cabling, and troubleshooting, gave us a solid foundation in understanding the physical layer of networks. 
+It was like piecing together a giant jigsaw puzzle, where each cable, connector, and tool plays a crucial role in making sure data can travel efficiently from one device to another.
+
+Overall, I feel more confident about how networks are built and maintained, and I'm excited to apply this knowledge as I continue my journey in learning about cybersecurity and networking!
