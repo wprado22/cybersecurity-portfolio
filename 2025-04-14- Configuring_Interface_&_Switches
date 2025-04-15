@@ -34,3 +34,5 @@ Data Link Layer & MAC Address which is part of how computers send data in small 
 Each device has a special number called a MAC Address (like a name tag), so the network knows where to send the data.
 
 The information at this layer is called a "frame", which is like a package that holds data and the MAC address.
+
+Attached are the rough drafts from today's class. 
