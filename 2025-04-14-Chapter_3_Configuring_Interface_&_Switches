@@ -1,0 +1,34 @@
+Today in class, we reviewed what we learned in the last lesson.
+
+We Reviewed types of cables:
+Three main types of cables that connect computers and help send information:
+
+Twisted Pair Cables – These are the most common. They have wires twisted around each other to stop interference.
+
+There are two types:
+
+UTP (Unshielded Twisted Pair) – has no extra covering.
+
+STP (Shielded Twisted Pair) – has a shield to protect the signal.
+
+We also saw VTP (Virtual Trunk Protocol), which is used more in network setups with switches.
+
+Coaxial Cables – These have a single wire in the middle and are covered with insulation and shielding. They're good at sending signals long distances.
+
+Fiber Optic Cables – These use light to send data and are super fast! They're great for long distances and have less chance of interference.
+
+Wireless Networks use antennas to send signals through the air. This is how Wi-Fi works!
+
+Network devices that help send and boost signals;
+
+Media Converter – Changes one type of connection to another, like fiber to twisted pair.
+
+Amplifier – Makes signals stronger, especially over long distances.
+
+Repeater – Copies the signal and sends it again to keep it strong.
+
+Hub – A simple device that connects multiple computers, but it sends data to all of them (not very smart!).
+
+Data Link Layer & MAC Address which is part of how computers send data in small packets.
+
+Each device has a special number called a MAC Address (like a name tag), so the network knows where to send the data.
